@@ -1,0 +1,344 @@
+.home_center-head {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 6rem; }
+
+.home_center-para {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2.5rem; }
+
+.login_heading {
+  text-align: center;
+  margin-top: 5%;
+  background-image: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.5rem; }
+
+.login_name_label {
+  position: absolute;
+  bottom: 75%;
+  font-size: 2rem;
+  left: 9%; }
+
+.login_email_label {
+  position: absolute;
+  bottom: 55%;
+  font-size: 2rem;
+  left: 9%; }
+
+.login_pass_label {
+  position: absolute;
+  bottom: 35%;
+  font-size: 2rem;
+  left: 9%; }
+
+.signup_heading {
+  text-align: center;
+  margin-top: 5%;
+  background-image: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.5rem; }
+
+.signup_name_label {
+  position: absolute;
+  bottom: 75%;
+  font-size: 2rem;
+  left: 9%; }
+
+.signup_email_label {
+  position: absolute;
+  bottom: 55%;
+  font-size: 2rem;
+  left: 9%; }
+
+.signup_pass_label {
+  position: absolute;
+  bottom: 35%;
+  font-size: 2rem;
+  left: 9%; }
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2%;
+  height: 70vh;
+  width: 30%;
+  border-radius: .5rem;
+  background-color: rgba(255, 255, 255, 0.8); }
+
+.signup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2%;
+  height: 70vh;
+  width: 30%;
+  border-radius: .5rem;
+  background-color: rgba(255, 255, 255, 0.8); }
+
+::placeholder {
+  font-size: 1.5rem; }
+
+.login_pass_field {
+  position: absolute;
+  left: 50%;
+  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0);
+  transform: translateX(-50%);
+  bottom: 25%;
+  padding: .8rem;
+  width: 80%;
+  border: none;
+  border-bottom: .1rem solid lightslategrey; }
+  .login_pass_field:focus {
+    outline: none;
+    border-bottom: .3rem solid orange; }
+
+.login_email_field {
+  position: absolute;
+  left: 50%;
+  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0);
+  transform: translateX(-50%);
+  bottom: 45%;
+  padding: .8rem;
+  width: 80%;
+  border: none;
+  border-bottom: .1rem solid lightslategrey; }
+  .login_email_field:focus {
+    outline: none;
+    border-bottom: .3rem solid orange; }
+
+.login_name_field {
+  position: absolute;
+  left: 50%;
+  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0);
+  transform: translateX(-50%);
+  bottom: 65%;
+  padding: .8rem;
+  width: 80%;
+  border: none;
+  border-bottom: .1rem solid lightslategrey; }
+  .login_name_field:focus {
+    outline: none;
+    border-bottom: .3rem solid orange; }
+
+::placeholder {
+  font-size: 1.5rem; }
+
+.signup_pass_field {
+  position: absolute;
+  left: 50%;
+  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0);
+  transform: translateX(-50%);
+  bottom: 25%;
+  padding: .8rem;
+  width: 80%;
+  border: none;
+  border-bottom: .1rem solid lightslategrey; }
+  .signup_pass_field:focus {
+    outline: none;
+    border-bottom: .3rem solid orange; }
+
+.signup_email_field {
+  position: absolute;
+  left: 50%;
+  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0);
+  transform: translateX(-50%);
+  bottom: 45%;
+  padding: .8rem;
+  width: 80%;
+  border: none;
+  border-bottom: .1rem solid lightslategrey; }
+  .signup_email_field:focus {
+    outline: none;
+    border-bottom: .3rem solid orange; }
+
+.signup_name_field {
+  position: absolute;
+  left: 50%;
+  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0);
+  transform: translateX(-50%);
+  bottom: 65%;
+  padding: .8rem;
+  width: 80%;
+  border: none;
+  border-bottom: .1rem solid lightslategrey; }
+  .signup_name_field:focus {
+    outline: none;
+    border-bottom: .3rem solid orange; }
+
+.login_submit {
+  position: absolute;
+  left: 50%;
+  font-size: 1.8rem;
+  transform: translateX(-50%);
+  bottom: 10%;
+  padding: .8rem 2rem;
+  width: 70%;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  color: white;
+  transition: all .4s;
+  background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); }
+  .login_submit:hover {
+    transform: translate(-14.3rem, -0.5rem);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871); }
+
+.signup_submit {
+  position: absolute;
+  left: 50%;
+  font-size: 1.8rem;
+  transform: translateX(-50%);
+  bottom: 10%;
+  padding: .8rem 2rem;
+  width: 70%;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  color: white;
+  transition: all .4s;
+  background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); }
+  .signup_submit:hover {
+    transform: translate(-14.3rem, -0.5rem);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871); }
+
+.center {
+  height: 75vh;
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2rem; }
+  .center-heading {
+    text-align: center;
+    margin-top: 1%;
+    background-image: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2.5rem; }
+  .center-playername {
+    text-align: center; }
+  .center-score-text {
+    text-align: center; }
+  .center-score {
+    border: .2rem solid #845ec2;
+    width: 12%;
+    position: absolute;
+    left: 50%;
+    margin-top: 1%;
+    background-color: red;
+    transform: translateX(-50%); }
+    .center-score span {
+      color: white;
+      font-size: 2.5rem; }
+    .center-score_txt {
+      transform: translateX(4rem); }
+  .center-score-status {
+    text-align: center;
+    margin-top: 6%; }
+  .center img {
+    cursor: pointer;
+    margin-left: 5%;
+    transform: translateX(90%);
+    border: .2rem solid black;
+    border-radius: 10%;
+    margin-top: 2%;
+    height: 40%; }
+
+header .header {
+  background-color: #fff;
+  width: 100%;
+  height: 10vh;
+  position: relative;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2); }
+  header .header_logo {
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    font-size: 2.5rem;
+    transition: all .4s; }
+    header .header_logo-ul {
+      position: absolute;
+      top: 65%;
+      left: 4%;
+      width: 5%;
+      height: .2rem;
+      background-image: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871); }
+    header .header_logo:hover {
+      transform: scale(1.2); }
+  header .header_nav_ul {
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    list-style: none;
+    width: 20%; }
+    header .header_nav_ul li {
+      display: inline; }
+    header .header_nav_ul-home {
+      color: black;
+      margin-right: 5%;
+      text-decoration: none;
+      font-size: 1.8rem;
+      padding: .2rem 1rem;
+      border: .2rem solid #845EC2;
+      border-radius: 1rem;
+      transition: all .4s; }
+      header .header_nav_ul-home:hover {
+        border: .2rem solid #FF6F91; }
+    header .header_nav_ul-login {
+      color: black;
+      text-decoration: none;
+      margin-right: 5%;
+      font-size: 1.8rem;
+      padding: .2rem 1rem;
+      border: .2rem solid #FF6F91;
+      border-radius: 1rem;
+      transition: all .4s; }
+      header .header_nav_ul-login:hover {
+        border: .2rem solid #845EC2; }
+    header .header_nav_ul-signup {
+      color: black;
+      text-decoration: none;
+      margin-right: 5%;
+      font-size: 1.8rem;
+      padding: .2rem .5rem;
+      border: .2rem solid #FF9671;
+      border-radius: 1rem;
+      transition: all .4s; }
+      header .header_nav_ul-signup:hover {
+        border: .2rem solid #FFC75F; }
+
+* {
+  margin: 0%;
+  padding: 0%; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: linear-gradient(to right top, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+  background-repeat: no-repeat;
+  font-family: "Saira Semi Condensed";
+  height: 100vh; }

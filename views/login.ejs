@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe || Login</title>
+</head>
+<body>
+<!--Header Part-->
+    <header>
+        <div class="header">
+            <h1 class="header_logo">Gamer</h1>
+            <div class="header_logo-ul"></div>
+            <ul class="header_nav_ul">
+                <li><a href="/" class="header_nav_ul-home">Home</a></li>
+                <li><a href="/login" class="header_nav_ul-login">Log In</a></li>
+                <li><a href="/signup" class="header_nav_ul-signup">Sign Up</a></li>
+            </ul>
+        </div>            
+    </header>
+
+    <div class="login">
+        <h1 class="login_heading">Log In</h1>
+        <form action="/login" method="POST">
+            <label class="login_name_label" for="name">Name:</label><br>
+            <input class="login_name_field" type="text" name="name" placeholder="Enter The Name" autocomplete="off"><br>
+            <label class="login_email_label" for="name">Email:</label><br>
+            <input class="login_email_field" type="email" name="username" placeholder="Enter The Email" autocomplete="off"><br>
+            <label class="login_pass_label" for="name">Password:</label><br>
+            <input class="login_pass_field" type="password" name="password" placeholder="Enter The Password"><br>
+            <button class="login_submit" type="submit">Log In</button>
+        </form>
+    </div>
+
+</body>
+</html>

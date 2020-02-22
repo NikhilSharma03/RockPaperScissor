@@ -1,0 +1,67 @@
+.center{
+    height: 75vh;
+    width: 85%;
+    background-color: rgba(#fff,.6);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 2rem;
+
+    //Heading
+    &-heading{
+        text-align: center;
+        margin-top: 1%;
+        background-image: linear-gradient(to right top, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+        color: transparent;
+        -webkit-background-clip:text;
+        font-size: 2.5rem;
+    }
+
+    //Player Name
+    &-playername{
+        text-align: center;
+    }
+
+    //Score Text
+    &-score-text{
+        text-align: center;
+    }
+
+    //Score
+    &-score{
+        border: .2rem solid #845ec2;
+        width: 12%;
+        position: absolute;
+        left: 50%;
+        margin-top: 1%;
+        background-color: red;
+        transform: translateX(-50%);
+
+        span{
+            color: white;
+            font-size: 2.5rem;
+        }
+        &_txt{
+            transform: translateX(4rem);
+        }
+    }
+
+    //Status
+    &-score-status{
+        text-align: center;
+        margin-top: 6%;
+    }
+
+    //Images
+    img{
+        cursor: pointer;
+        margin-left: 5%;
+        transform: translateX(90%);
+        border: .2rem solid black;
+        border-radius: 10%;
+        margin-top: 2%;
+        height: 40%;
+    }
+    
+}

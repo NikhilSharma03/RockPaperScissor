@@ -1,0 +1,82 @@
+//HomePage
+
+.home_center-head{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 6rem;
+}
+
+.home_center-para{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2.5rem;
+}
+
+//Login Page
+.login_heading{
+    text-align: center;
+    margin-top: 5%;
+    background-image: linear-gradient(to right top, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+    color: transparent;
+    -webkit-background-clip:text;
+    font-size: 2.5rem;
+}
+
+.login_name_label{
+    position: absolute;
+    bottom: 75%;
+    font-size: 2rem;
+    left: 9%;
+}
+
+.login_email_label{
+    position: absolute;
+    bottom: 55%;
+    font-size: 2rem;
+    left: 9%;
+}
+
+.login_pass_label{
+    position: absolute;
+    bottom: 35%;
+    font-size: 2rem;
+    left: 9%;
+}
+
+//SignUp Page
+.signup_heading{
+    text-align: center;
+    margin-top: 5%;
+    background-image: linear-gradient(to right top, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+    color: transparent;
+    -webkit-background-clip:text;
+    font-size: 2.5rem;
+}
+
+.signup_name_label{
+    position: absolute;
+    bottom: 75%;
+    font-size: 2rem;
+    left: 9%;
+}
+
+.signup_email_label{
+    position: absolute;
+    bottom: 55%;
+    font-size: 2rem;
+    left: 9%;
+}
+
+.signup_pass_label{
+    position: absolute;
+    bottom: 35%;
+    font-size: 2rem;
+    left: 9%;
+}
+

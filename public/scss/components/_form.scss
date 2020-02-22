@@ -1,0 +1,111 @@
+//Login Page
+::placeholder {
+    font-size: 1.5rem;
+}
+
+.login_pass_field{
+    position: absolute;
+    left: 50%;
+    font-size: 1.8rem;
+    background-color: rgba(#fff,0);
+    transform: translateX(-50%);
+    bottom: 25%;
+    padding: .8rem;
+    width: 80%;
+    border: none;
+    border-bottom: .1rem solid lightslategrey;
+    &:focus{
+        outline: none;
+        border-bottom: .3rem solid orange;
+    }
+}
+
+.login_email_field{
+    position: absolute;
+    left: 50%;
+    font-size: 1.8rem;
+    background-color: rgba(#fff,0);
+    transform: translateX(-50%);
+    bottom: 45%;
+    padding: .8rem;
+    width: 80%;
+    border: none;
+    border-bottom: .1rem solid lightslategrey;
+    &:focus{
+        outline: none;
+        border-bottom: .3rem solid orange;
+    }
+}
+
+.login_name_field{
+    position: absolute;
+    left: 50%;
+    font-size: 1.8rem;
+    background-color: rgba(#fff,0);
+    transform: translateX(-50%);
+    bottom: 65%;
+    padding: .8rem;
+    width: 80%;
+    border: none;
+    border-bottom: .1rem solid lightslategrey;
+    &:focus{
+        outline: none;
+        border-bottom: .3rem solid orange;
+    }
+}
+
+//Signup
+::placeholder {
+    font-size: 1.5rem;
+}
+
+.signup_pass_field{
+    position: absolute;
+    left: 50%;
+    font-size: 1.8rem;
+    background-color: rgba(#fff,0);
+    transform: translateX(-50%);
+    bottom: 25%;
+    padding: .8rem;
+    width: 80%;
+    border: none;
+    border-bottom: .1rem solid lightslategrey;
+    &:focus{
+        outline: none;
+        border-bottom: .3rem solid orange;
+    }
+}
+
+.signup_email_field{
+    position: absolute;
+    left: 50%;
+    font-size: 1.8rem;
+    background-color: rgba(#fff,0);
+    transform: translateX(-50%);
+    bottom: 45%;
+    padding: .8rem;
+    width: 80%;
+    border: none;
+    border-bottom: .1rem solid lightslategrey;
+    &:focus{
+        outline: none;
+        border-bottom: .3rem solid orange;
+    }
+}
+
+.signup_name_field{
+    position: absolute;
+    left: 50%;
+    font-size: 1.8rem;
+    background-color: rgba(#fff,0);
+    transform: translateX(-50%);
+    bottom: 65%;
+    padding: .8rem;
+    width: 80%;
+    border: none;
+    border-bottom: .1rem solid lightslategrey;
+    &:focus{
+        outline: none;
+        border-bottom: .3rem solid orange;
+    }
+}

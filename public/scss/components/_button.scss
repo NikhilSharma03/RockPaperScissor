@@ -1,0 +1,41 @@
+.login_submit{
+    position: absolute;
+    left: 50%;
+    font-size: 1.8rem;
+    transform: translateX(-50%);
+    bottom: 10%;
+    padding: .8rem 2rem;
+    width: 70%;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: white;
+    transition: all .4s;
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    &:hover{
+        transform: translate(-14.3rem,-.5rem);
+        box-shadow: 0 1rem 1rem rgba($color: #000000, $alpha: .2);
+        background-image: linear-gradient(to right top, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+    }
+}
+
+.signup_submit{
+    position: absolute;
+    left: 50%;
+    font-size: 1.8rem;
+    transform: translateX(-50%);
+    bottom: 10%;
+    padding: .8rem 2rem;
+    width: 70%;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: white;
+    transition: all .4s;
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    &:hover{
+        transform: translate(-14.3rem,-.5rem);
+        box-shadow: 0 1rem 1rem rgba($color: #000000, $alpha: .2);
+        background-image: linear-gradient(to right top, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+    }
+}

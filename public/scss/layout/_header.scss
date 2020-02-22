@@ -1,0 +1,88 @@
+header{
+    .header{
+        background-color: #fff;
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        box-shadow: 0 2rem 2rem rgba($color: #000000, $alpha: 0.2);
+    
+        //Logo
+
+        &_logo{
+            position: absolute;
+            top: 15%;
+            left: 4%;
+            font-size: 2.5rem;
+            transition: all .4s;
+            &-ul{
+                position: absolute;
+                top: 65%;
+                left: 4%;
+                width: 5%;
+                height: .2rem;     
+                background-image: linear-gradient(to right top, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+            }
+            &:hover{
+                transform: scale(1.2);                   
+            }
+        }
+
+        //Navigation
+
+        &_nav_ul{
+            position: absolute;
+            top: 30%;
+            right: 0%;
+            list-style: none;
+            width: 20%;
+
+            li{
+                display: inline;
+            }
+
+            &-home{
+                color: black;
+                margin-right: 5%;
+                text-decoration: none;
+                font-size: 1.8rem;
+                padding: .2rem 1rem;
+                border: .2rem solid #845EC2;
+                border-radius: 1rem;
+                transition: all .4s;
+                &:hover{
+                    border: .2rem solid #FF6F91;                    
+                }
+            }
+
+            &-login{
+                color: black;
+                text-decoration: none;
+                margin-right: 5%;
+                font-size: 1.8rem;
+                padding: .2rem 1rem;
+                border: .2rem solid #FF6F91;
+                border-radius: 1rem;
+                transition: all .4s;
+                &:hover{
+                    border: .2rem solid #845EC2;                    
+                }
+            }
+
+            &-signup{
+                color: black;
+                text-decoration: none;
+                margin-right: 5%;
+                font-size: 1.8rem;
+                padding: .2rem .5rem;
+                border: .2rem solid #FF9671;
+                border-radius: 1rem;
+                transition: all .4s;
+                &:hover{
+                    border: .2rem solid #FFC75F;                    
+                }
+            }
+
+        }
+
+    }
+}
